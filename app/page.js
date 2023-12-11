@@ -1,13 +1,9 @@
-"use client"
-import Link from "next/link"
+import Header from './Component/Header'
 
 export default function Home() {
   return (
-    <main >
-     <Link href="/" >Home</Link>
-     <Link href="/cv" >CV</Link>
-     <Link href="/contact" >Contact</Link>
-     <Link href="/jeu" >jeu</Link>
-    </main>
+    <>
+    <Header />
+    </>
   )
 }
